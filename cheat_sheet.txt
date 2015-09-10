@@ -13,6 +13,23 @@ $ git init
 
 
 
+Add file to git stage
+git add <nomeficheiro>
+
+
+
+See what's on the git stage
+git status
+
+
+
+Commit the files that are on the git stage
+git commit
+or
+git commit -m "message"
+
+
+
 
 
 
