@@ -100,3 +100,12 @@ Merge branch
 $ git mergetool <branchname>
 
 
+Add remote
+$ git remote add origin <url>
+
+
+Push to remote
+$ git push -u origin master
+
+
+
