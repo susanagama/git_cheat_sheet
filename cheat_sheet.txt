@@ -83,3 +83,16 @@ Amend last commit
 $ git commit --amend
 
 
+
+Create branch
+$ git branch <branchname>
+
+
+Change to branch
+$ git checkout <branchname>
+
+
+Check current branch
+$ git branch
+
+
