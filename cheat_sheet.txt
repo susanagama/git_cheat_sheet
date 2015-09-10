@@ -84,6 +84,19 @@ $ git commit --amend
 
 
 
-RANDOM STUFF
+Create branch
+$ git branch <branchname>
+
+
+Change to branch
+$ git checkout <branchname>
+
+
+Check current branch
+$ git branch
+
+
+randommmmmmm
+
 
 
