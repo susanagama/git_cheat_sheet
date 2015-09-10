@@ -14,23 +14,72 @@ $ git init
 
 
 Add file to git stage
-git add <nomeficheiro>
+$ git add <nomeficheiro>
 
 
 
-See what's on the git stage
-git status
+See what's on the git stage/Project status
+$ git status
 
 
 
 Commit the files that are on the git stage
-git commit
-or
-git commit -m "message"
+$ git commit
+	options
+	 -m "message" // to insert the message
+	 -a		// add files to stage
+
+
+Ignore files that are on the stage / Create a file called .gitignore
+$ vim .gitignore
+and then add to the git stage
+
+
+
+Check repo history
+$ git log 
+	options
+	--graph 	// branch graph
+	--oneline
+	-p		// changes
+	-1		// number of commits
+	--decorate
+
+
+Creat alias
+$ git config --global alias.lg 'log --graph --oneline --decorate --all'
 
 
 
 
+$ git commit -a
 
+
+
+See the specifications of every file that is committed
+$ git log
+
+
+
+Differences
+$git diff
+	options
+	--staged 	// changes between stage and last commit
+
+
+Reset local changes
+$git checkout
+	options 
+	<filename> 	// unstage file
+
+
+Remove commit
+$ git reset <commit>
+	options 
+	--hard 		// remove changes
+
+
+Amend last commit
+$ git commit --amend
 
 
